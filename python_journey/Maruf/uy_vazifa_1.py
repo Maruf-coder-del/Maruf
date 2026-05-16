@@ -1,13 +1,16 @@
-# Mening yoshim kerak bo'lgan kod
-tugilgan_yil = 2008 # Meni tug'ilgan yilim
-tugilgan_oy = 1
-tugilgan_kun = 24
+#  Ma'lumotlar
+t_yil, t_oy, t_kun = 2008, 1, 24
+h_yil, h_oy, h_kun = 2026, 5, 16
 
-hozirgi_yil = 2026
-hozirgi_oy = 5
-hozirgi_kun = 15
+# Yil va oy farqini kunlarga aylantiramiz
+yillar_kuni = (h_yil - t_yil) * 365
+oylar_kuni = (h_oy - t_oy) * 30
+kunlar_farqi = h_kun - t_kun
 
-# Hisob-kitob bu yerda
-yashagan_kunlar = (hozirgi_yil - tugilgan_yil) * 365 + (hozirgi_oy - tugilgan_oy) * 30 + (tugilgan_kun - hozirgi_kun)
-
-print(f"Siz {yashagan_kunlar} kundan beri yashayapsiz!") 
+# Agar kun manfiy bo'lsa, bir oy (30 kun) qarz olamiz
+if kunlar_farqi < 0:
+    oylar_kuni -= 30
+    kunlar_farqi += 30
+    
+    yashagan_kunlar = yillar_kuni + oylar_kuni + kunlar_farqi
+    print(f"Siz taxminan {yashagan_kunlar} kundan beri yashayapsiz!")

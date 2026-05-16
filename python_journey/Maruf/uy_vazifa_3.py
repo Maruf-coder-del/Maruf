@@ -1,4 +1,4 @@
-ism = "Ma'ruf"
+ism = "Ma`ruf"
 maqsaad = "TATU"
 sevmli_taom = "Grechka palov"
 orzu = "Baxtli hayot"

@@ -17,7 +17,7 @@ print("Mening ismim", ism, "va yoshim", yosh)
 print("Bir", end=" -> ")
 print("ikki", end=" -> ")
 print("Uch")
-# Chiqish: Bir -> Ikki -> Uch
+# Chiqish: Bir -> ikki -> Uch
 
 # 3. Sep parametri - elementlar orasidagi ajratuvchi
 print("2024", "01", "15", sep="-") # Sana formati
@@ -35,7 +35,7 @@ print("Mana bu \tjoy tashlaydi")        # Tab (4 bo'shliq)
 print("=" * 50)
 print("PYTHON BACKEND DASTURCHILIK KURSI")
 print("=" * 50)
-print("Ustoz; AI Mentor")
+print("Ustoz, AI Mentor")
 print("Talaba: Men")
 print("Boshlanish sanasi: 2026-05-07")
 print("Maqsad: 10 oyda kuchli dasturchi bo'lish")
@@ -172,7 +172,7 @@ else:
 # Traceback (most recent call last):
 #    File "maiin.py", line 5, in <module>
 #      natija = son / nol         <-- XATO QAYERDA
-# ZeroDivisionError: dividsion by zero    <-- XATO TURI VA SABABI
+# ZeroDivisionError: division by zero    <-- XATO TURI VA SABABI
 
 # Demak:
 # - Qayerda? main.py fayli, 5-qatorda
